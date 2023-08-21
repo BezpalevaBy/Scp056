@@ -11,6 +11,7 @@
         <AssemblyName>Scp056</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,12 +33,151 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>..\..\CustomEscape\References\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+          <HintPath>..\..\CustomEscape\References\Assembly-CSharp-Publicized.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp-firstpass">
+          <HintPath>..\..\CustomEscape\References\Assembly-CSharp-firstpass.dll</HintPath>
+        </Reference>
+        <Reference Include="AudioSystem">
+          <HintPath>..\..\CustomEscape\References\AudioSystem.dll</HintPath>
+        </Reference>
+        <Reference Include="Better096Rage">
+          <HintPath>..\..\CustomEscape\References\Better096Rage.dll</HintPath>
+        </Reference>
+        <Reference Include="BetterEffects">
+          <HintPath>..\..\CustomEscape\References\BetterEffects.dll</HintPath>
+        </Reference>
+        <Reference Include="CommandSystem.Core">
+          <HintPath>..\..\CustomEscape\References\CommandSystem.Core.dll</HintPath>
+        </Reference>
+        <Reference Include="CustomButtons">
+          <HintPath>..\..\CustomEscape\References\CustomButtons.dll</HintPath>
+        </Reference>
+        <Reference Include="CustomElevators">
+          <HintPath>..\..\CustomEscape\References\CustomElevators.dll</HintPath>
+        </Reference>
+        <Reference Include="CustomItems">
+          <HintPath>..\..\CustomEscape\References\CustomItems.dll</HintPath>
+        </Reference>
+        <Reference Include="CustomRoles">
+          <HintPath>..\..\CustomEscape\References\CustomRoles.dll</HintPath>
+        </Reference>
+        <Reference Include="DiscordIntegration">
+          <HintPath>..\..\CustomEscape\References\DiscordIntegration.dll</HintPath>
+        </Reference>
+        <Reference Include="DSharp4Webhook">
+          <HintPath>..\..\CustomEscape\References\DSharp4Webhook.dll</HintPath>
+        </Reference>
+        <Reference Include="EventInformer">
+          <HintPath>..\..\CustomEscape\References\EventInformer.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.API">
+          <HintPath>..\..\CustomEscape\References\Exiled.API.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.CreditTags">
+          <HintPath>..\..\CustomEscape\References\Exiled.CreditTags.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.CustomItems">
+          <HintPath>..\..\CustomEscape\References\Exiled.CustomItems.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.CustomRoles">
+          <HintPath>..\..\CustomEscape\References\Exiled.CustomRoles.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.Events">
+          <HintPath>..\..\CustomEscape\References\Exiled.Events.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.Loader">
+          <HintPath>..\..\CustomEscape\References\Exiled.Loader.dll</HintPath>
+        </Reference>
+        <Reference Include="Exiled.Permissions">
+          <HintPath>..\..\CustomEscape\References\Exiled.Permissions.dll</HintPath>
+        </Reference>
+        <Reference Include="FlxDoorAccess">
+          <HintPath>..\..\CustomEscape\References\FlxDoorAccess.dll</HintPath>
+        </Reference>
+        <Reference Include="FLXLib">
+          <HintPath>..\..\CustomEscape\References\FLXLib.dll</HintPath>
+        </Reference>
+        <Reference Include="LiteDB">
+          <HintPath>..\..\CustomEscape\References\LiteDB.dll</HintPath>
+        </Reference>
+        <Reference Include="MainDatabase">
+          <HintPath>..\..\CustomEscape\References\MainDatabase.dll</HintPath>
+        </Reference>
+        <Reference Include="MapEditorReborn">
+          <HintPath>..\..\CustomEscape\References\MapEditorReborn.dll</HintPath>
+        </Reference>
+        <Reference Include="Mirror">
+          <HintPath>..\..\CustomEscape\References\Mirror.dll</HintPath>
+        </Reference>
+        <Reference Include="Mirror.Components">
+          <HintPath>..\..\CustomEscape\References\Mirror.Components.dll</HintPath>
+        </Reference>
+        <Reference Include="Newtonsoft.Json">
+          <HintPath>..\..\CustomEscape\References\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="NorthwoodLib">
+          <HintPath>..\..\CustomEscape\References\NorthwoodLib.dll</HintPath>
+        </Reference>
+        <Reference Include="PluginAPI">
+          <HintPath>..\..\CustomEscape\References\PluginAPI.dll</HintPath>
+        </Reference>
+        <Reference Include="Pooling">
+          <HintPath>..\..\CustomEscape\References\Pooling.dll</HintPath>
+        </Reference>
+        <Reference Include="RespawnTimer">
+          <HintPath>..\..\CustomEscape\References\RespawnTimer.dll</HintPath>
+        </Reference>
+        <Reference Include="ScpChatExtension">
+          <HintPath>..\..\CustomEscape\References\ScpChatExtension.dll</HintPath>
+        </Reference>
+        <Reference Include="SCPSLAudioApi">
+          <HintPath>..\..\CustomEscape\References\SCPSLAudioApi.dll</HintPath>
+        </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
+        <Reference Include="Unity.Mathematics">
+          <HintPath>..\..\CustomEscape\References\Unity.Mathematics.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.TextMeshPro">
+          <HintPath>..\..\CustomEscape\References\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
+        <Reference Include="Unity.Timeline">
+          <HintPath>..\..\CustomEscape\References\Unity.Timeline.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine">
+          <HintPath>..\..\CustomEscape\References\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AnimationModule">
+          <HintPath>..\..\CustomEscape\References\UnityEngine.AnimationModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AssetBundleModule">
+          <HintPath>..\..\CustomEscape\References\UnityEngine.AssetBundleModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>..\..\CustomEscape\References\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PhysicsModule">
+          <HintPath>..\..\CustomEscape\References\UnityEngine.PhysicsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="websocket-sharp">
+          <HintPath>..\..\CustomEscape\References\websocket-sharp.dll</HintPath>
+        </Reference>
+        <Reference Include="WeightedRandomizer">
+          <HintPath>..\..\CustomEscape\References\WeightedRandomizer.dll</HintPath>
+        </Reference>
+        <Reference Include="YamlDotNet">
+          <HintPath>..\..\CustomEscape\References\YamlDotNet.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Command.cs" />
         <Compile Include="Config.cs" />
         <Compile Include="Handlers.cs" />
         <Compile Include="Plugin.cs" />
